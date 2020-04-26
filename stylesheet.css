@@ -1,0 +1,104 @@
+/* Ketik code Anda dibaris terakhir */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.review {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #fdfaf0;
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+.heading {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #fcc941
+}
+
+.heading h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.komponen {
+    float: left;
+    width: 33.33%;
+}
+
+.komponen-icon1 {
+    position: relative;
+}
+
+.komponen-icon2 {
+    position: relative;
+}
+
+.komponen-icon3 {
+    position: relative;
+}
+
+.komponen-icon1 img {
+    width: 253px;
+    height: 93px;
+    border: none;
+}
+
+.komponen-icon2 img {
+    width: 212px;
+    height: 89px;
+    border: none;
+}
+
+.komponen-icon3 img {
+    width: 194px;
+    height: 73px;
+    border: none;
+}
+
+.txt-contents {
+    width: 70%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #6A6868;
+    font-style: italic;
+}
