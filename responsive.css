@@ -1,0 +1,19 @@
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+    .heading h1 {
+        font-size: 25px;
+    }
+    .list-review {
+        width: 100%;
+    }
+}
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    .list-review {
+        width: 100%;
+    }
+}
